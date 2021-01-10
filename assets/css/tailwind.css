@@ -1,0 +1,10 @@
+/* ./assets/css/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@variants even{
+    .centered{
+        transform: translate(-50%, -50%);
+    }
+}
