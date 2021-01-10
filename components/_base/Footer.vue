@@ -1,20 +1,22 @@
 <template>
-  <footer class="h-24 bg-gray-800">
-    <div class="container mx-3 text-white">
-      <ul class="nav-links flex">
-        <li class="nav-link">
-          <BIconTwitter />
-        </li>
-        <li class="nav-link">
-          <BIconLinkedin />
-        </li>
-        <li class="nav-link">
-          <BIconGithub />
-        </li>
-      </ul>
-      <div class="copyright-text">
-        Copyright &copy; 2021 All Rights Reserved by
-        <a href="#">Beauty Context</a>.
+  <footer>
+    <div class="container bg-gray-800 py-3">
+      <div class="sosialmedia text-3xl text-white">
+        <ul class="flex justify-center">
+          <li class="mx-3">
+            <a href="#"><BIconGithub /></a>
+          </li>
+          <li class="mx-3">
+            <a href="#"><BIconLinkedin /></a>
+          </li>
+          <li class="mx-3">
+            <a href="#"><BIconTwitter /></a>
+          </li>
+        </ul>
+      </div>
+      <hr class="bg-white my-2">
+      <div class="copyright flex justify-center text-white">
+        &copy; 2021 All Rights Reserved Beauty Context v01
       </div>
     </div>
   </footer>

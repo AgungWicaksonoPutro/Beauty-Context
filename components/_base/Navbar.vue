@@ -1,5 +1,5 @@
 <template>
-  <nav class="container h-20 bg-gray-800 flex items-center sticky">
+  <nav class="container h-20 bg-gray-800 flex items-center sticky-top">
     <div class="navbar-brand mx-3 w-2/12">
       <nuxt-link class="hover:no-underline hover:text-current" to="/">
         <span class="text-blue-600 text-3xl">Beauty&nbsp;</span><span class="text-white text-3xl">Context</span>
