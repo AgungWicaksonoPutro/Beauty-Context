@@ -22,6 +22,12 @@ export default {
       type: Object,
       required: true
     }
+  },
+  methods: {
+    setTime (a) {
+      const time = new Date()
+      time.setMinutes(a)
+    }
   }
 }
 </script>
