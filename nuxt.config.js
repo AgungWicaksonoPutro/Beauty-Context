@@ -27,19 +27,21 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/moment'
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    'bootstrap-vue/nuxt'
+    'bootstrap-vue/nuxt',
+    '@nuxtjs/moment'
   ],
 
   bootstrapVue: {
     icon: true,
-    components: ['BIcon', 'BIconSearch', 'BIconTwitter', 'BIconLinkedin', 'BIconGithub']
+    components: ['BIcon', 'BIconSearch', 'BIconTwitter', 'BIconLinkedin', 'BIconGithub', 'BIconArrowRight']
   },
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
