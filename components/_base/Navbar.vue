@@ -12,7 +12,7 @@
       <input v-model="url" class="bg-white shadow-sm w-full h-10 rounded-lg pr-8 pl-2 focus:outline-none focus:ring-1" placeholder="Enter your url" type="text" @keyup.enter.prevent="setVideo">
     </div>
     <transition name="on">
-      <div v-show="getUrl.length" class="input-container w-1/6 relative z-0">
+      <div v-show="getUrl.length && url.length" class="input-container w-1/6 relative z-0">
         <button class="absolute top-2 right-2 focus:outline-none text-gray-400 hover:text-gray-500 focus:text-gray-500">
           <BIconSearch />
         </button>

@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen bg-white">
+  <div class="h-auto bg-white my-2">
     <BlankSpace v-show="getEror[0].error" :data="getEror" />
     <div v-show="getUrl.length !== 0" class="grid grid-cols-2 gap-1">
       <div class="">
